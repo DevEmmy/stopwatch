@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h3>DevEmmy - StopWatch</h3>
+    </header>
+    <div class="stopwatch">
+        00:00:00
+    </div>
+    <div class="controls">
+        <button onclick="start()">Start</button>
+        <button onclick="pause()">Pause</button>
+        <button onclick="lap()">Lap</button>
+        <button onclick="resetLap()">Reset Lap</button>
+        <button onclick="reset()">Reset</button>
+        <button onclick="stop()">Stop</button>
+    </div>
+
+    <ul class="lapList">
+        <li class="laps-head">Laps:</li>
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>
